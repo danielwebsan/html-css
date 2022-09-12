@@ -1,0 +1,97 @@
+@charset "UTF-8";
+
+
+@font-face {
+    font-family: 'IDroidBold';
+    src: url('fontes/IDroidBold.otf') format('opentype');
+}
+body{
+    background-color: #84E1AD;
+    margin:0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+header{
+    background-image: linear-gradient(to top , #062c17, #27c26d);
+    margin:0px;
+    border-top: 0px solid #84E1AD;
+    padding-top: 8px;
+    color: #ffffff;
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+header >h1{
+    margin: 2px 0px 21px  12px;
+    font-size:22px;
+
+}
+
+    
+header >p{
+    text-align: center;
+    font-size:small;
+    font-family:sans-serif, Courier, monospace;
+    margin: 2px 0px 21px  12px;
+    color: white;
+
+}
+nav{
+    text-align: left;
+    margin-left: 3px;
+    padding-left: 3px ;
+    margin: 34px  0px 0px  0px;
+}
+nav >a{
+    font-size:11px;
+    text-decoration: none;
+    color: white;
+    margin-right: 4px;
+    margin-bottom: 0px;
+}
+nav >a:hover{
+    background-color: #0000007c; 
+   
+}
+main{
+    margin-top: 0%;
+    background-color: white;
+    border-right: 80px   solid #84E1AD;
+    border-bottom: 80px  solid #84E1AD;
+    border-left:80px  solid #84E1AD; 
+    padding: 1px 0px 33px  33px ;
+
+}
+h2{
+    font-family: 'IDroidBold';
+    font-style: normal;
+    font-size: 21px;
+    color:#083a1e ;
+}
+p{
+    text-align: justify;
+    text-indent: 25px;
+    color: black;
+    font-family:sans-serif, Courier, monospace; 
+    padding-right: 25px;
+}
+h3{ 
+    background-image: linear-gradient(to right , #84e1acab, #f1faf5ad );
+    font-family: 'IDroidBold';
+    font-style: normal;
+    font-size: 15px;
+    color:#083a1e ;
+
+}
+section{
+    margin-top: 0%;
+    background-color: white;
+    border-right: 80px   solid #84E1AD;
+    border-bottom: 80px  solid #84E1AD;
+    border-left:80px  solid #84E1AD; 
+    padding: 1px 0px 33px  33px ;
+}
+
+
+
+
+
+    
