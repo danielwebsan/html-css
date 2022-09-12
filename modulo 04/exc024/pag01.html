@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        table{
+    border-collapse: collapse ;
+    
+}
+caption{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: #d4caca;
+    padding: 5px;
+    text-decoration: overline;
+}
+thead th{
+    border: 1px solid black;
+    padding: 10px;
+    background-color: gray;
+}
+td{
+    border: 1px solid black;
+    padding: 5px;
+    width: 250px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+
+}
+td.num{
+    text-align: right;
+    text-shadow: 0px 0px 5px black;
+    width: 150px;
+
+}
+tr#ch{
+    background-image:linear-gradient( to bottom, #dbd037, red  );
+} 
+tr#id{
+    background-image:linear-gradient( to bottom, white, #ff9900, green  );
+}
+tr#eua{
+    background-image:linear-gradient( to bottom, #0e479e,white, #d4488e );
+}
+tr#ind{
+    background-image:linear-gradient( to bottom, white, red  );
+}
+tr#paq{
+    background-image:linear-gradient( to bottom, white, rgb(3, 61, 3)  );
+}
+tr#nig{
+    background-image:linear-gradient( to bottom, green, white  );
+}
+tr#bra{
+    background-image:linear-gradient( to bottom, green, yellow,blue  );
+}
+.maior{
+    width: 300px;
+}
+tfoot th{
+    border: 1px solid black;
+    padding: 2px;
+    width: 250px;
+    background-color: gray;
+    color: white;
+    text-shadow: 0px 0px 5px black;
+}
+tfoot td {
+    color: white;
+    background-color: gray;
+    text-shadow: 0px 0px 7px black;
+}
+    </style>
+   
+    <title>tabelas</title>
+</head>
+<body>
+    <h1>Uso de tabelas GRANDES</h1>
+    <table>
+        <caption>Os sete primeiros mais polulosos.</caption>
+        <thead>
+            <th scope="col">
+                País (ou território dependente)
+            </th>
+            <th scope="col">
+                Estimativa da ONU
+            </th>
+        </thead>
+
+        <tbody>
+            <tr id="ch">
+                <td class="maior" >China</td>	
+                <td class="num">1 411 780 000</td>
+            </tr>
+            <tr id="id">
+                <td class="maior">Índia</td>	
+                <td class="num">1 380 004 385</td>
+            </tr>
+            <tr id="eua">
+                <td class="maior">Estados Unidos</td>	
+                <td class="num">331 449 281</td>
+            </tr>
+            <tr id="ind">
+                <td class="maior">Indonésia</td>	<td class="num">273 523 615</td>
+            </tr>
+            <tr id="paq">
+                <td class="maior">Paquistão</td>	<td class="num">220 892 340</td>
+            </tr>
+            <tr id="nig">
+                <td >Nigéria</td>	<td class="num">217 757 685</td>
+            </tr>
+            <tr id="bra">
+                <td class="maior">Brasil</td>	
+                <td class="num">215 851 765</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <th scope="row" class="maior">
+                Totalidade dos 7 Paises mais Populosos:
+            </th>
+            <td class="num">
+                4 780 657 089
+            </td>
+        </tfoot>
+    </table>
+</body>
+</html>
