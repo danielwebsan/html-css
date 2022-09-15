@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+*{
+    margin: 15px;
+    padding: 10px;
+}
+menu{
+    display: none;
+}
+h1{
+    margin-left: 15px ;
+    margin-bottom: 0%;
+}
