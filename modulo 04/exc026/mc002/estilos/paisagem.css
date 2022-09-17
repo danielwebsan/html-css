@@ -4,9 +4,9 @@
 
 html,body{
     background-repeat: no-repeat;
-    background-position: cover;
+    background-position: left bottom;
     background-image: url('../imagens/cev-landscape.jpg');
-    height: 98vh;
+    
 }
 h1{
     background-image: linear-gradient(to right, gray, blue);

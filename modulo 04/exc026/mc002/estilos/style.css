@@ -9,9 +9,11 @@ html, body{
     background-color: black;
     width: 100vw;
     height: 100vh;
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 h1{
-    background-image:linear-gradient(to right , #808080a2, black);
+    
     color: white;
     margin-top : 10px;
     margin-left: 20px;

@@ -3,8 +3,9 @@
 /* ESTILO PARA A TELA DE RETRATO (PORTRAIT)*/
 html,body{
     background-color: blue; background-image: url('../imagens/cev-portrait.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
+    background-position: center bottom;
+    
+   
     
 }
 h1{
